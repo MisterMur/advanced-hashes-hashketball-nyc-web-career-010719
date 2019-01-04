@@ -145,6 +145,7 @@ def num_points_scored(player)
       
       # puts "player: #{name} stats: #{stats}"
       if name== player
+        binding.pry if name == 
          puts name.to_s
          points = stats[:points]
          puts points
