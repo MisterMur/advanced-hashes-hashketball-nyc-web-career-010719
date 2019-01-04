@@ -148,7 +148,7 @@ def num_points_scored(player)
       
         puts player
          puts name.to_s
-         points = stats[:points].to_s
+         points = stats[:points]
          puts points
         return points
       end
