@@ -144,7 +144,7 @@ def num_points_scored(player)
     team_data[:players].each do |name,stats|
       
       # puts "player: #{name} stats: #{stats}"
-      if name== playe
+      if name== player
          puts name.to_s
          points = stats[:points]
          puts points
